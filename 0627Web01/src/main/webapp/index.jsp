@@ -7,17 +7,24 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%-- 	<div>hello world</div>
-	<div>안녕 세상</div>
+<%-- 	<div>hello 
+	
+	
+	world</div>
+	<div>안녕           세상</div>
 	<%= new java.util.Date() %>
 	<br>
 	<%
 		for(int i=0; i<10; i++){
 			out.println(i);
+	%>
+	<br>
+	<%
 		}
-	%> 주석 ctrl shift / --%>
 	
-	<a href="Login.jsp">로그인</a>
+	%> --%>
+	
+	<a href="login_booot.jsp">로그인</a>
+	<a href="join.jsp">회원가입</a>
 </body>
-
 </html>
